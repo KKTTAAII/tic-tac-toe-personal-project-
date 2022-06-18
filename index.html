@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="board-container">
+        <div class="player-selection">
+            <div class="header">TIC TAC TOE</div>
+            <div>Please select your player</div>
+            <div>
+                <form id="form">
+                    <label for="player1">Player 1:</label>
+                    <select id="player1" name="player1" class="select">
+                        <option value="&#10060">&#10060</option>
+                        <option value="&#11093">&#11093</option>
+                        <option value="&#9924">&#9924</option>
+                        <option value="&#10084">&#10084</option>
+                        <option value="&#11088">&#11088</option>
+                        <option value="&#127183">&#127183</option>
+                        <option value="&#127770">&#127770</option>
+                        <option value="&#127774	">&#127774 </option>
+                    </select>
+                    <label for="player2">Player 2:</label>
+                    <select id="player2" name="player2" class="select">
+                        <option value="&#10060">&#10060</option>
+                        <option value="&#11093">&#11093</option>
+                        <option value="&#9924">&#9924</option>
+                        <option value="&#10084">&#10084</option>
+                        <option value="&#11088">&#11088</option>
+                        <option value="&#127183">&#127183</option>
+                        <option value="&#127770">&#127770</option>
+                        <option value="&#127774	">&#127774 </option>
+                    </select>
+                    <div>
+                        <button id="startBtn">Start game</button>
+                    </div>
+                </form>
+                <button id="restartBtn" class="hide">Restart</button>
+            </div>
+        </div>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+    <script src="Game.js"></script>
+</body>
+
+</html>
